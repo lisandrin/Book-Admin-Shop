@@ -1,12 +1,13 @@
 # Dashboard
-
+💻
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 
 ## Development server
-
+`Hi! 👋😊`
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-Also to load all data on website - Run `json-server db.json` in command-line(cmd). You can navigate it on  `httl://localhost:3000`;
 
+👩‍💻 Also to load all data on website - Run `json-server db.json` in command-line(cmd). You can navigate it on  `httl://localhost:3000`;
+`💻`
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
