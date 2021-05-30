@@ -1,0 +1,45 @@
+<section class="pad add-book-content">
+  <div class="container">
+    <div class="wrapper">
+      <div class="side-hello" id="overlay">
+        <div class="text">
+          <h1>Welcome!</h1>
+          <p>To add a new book, please fill the form and Submit!</p>
+          <i class="fas fa-hand-sparkles"></i>
+        </div>
+      </div>
+      <div class="input-group">
+        <h1>Add new book</h1>
+        <form [formGroup] = "addBook" (ngSubmit) ="collectResto()">
+          <div class="form-group">
+            
+            <input type="text" class="form-control" placeholder="Enter Title" formControlName="title">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Enter Author" formControlName="author">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Enter Pages" formControlName="pages">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Enter Image URL" formControlName="image">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Enter Book Price" formControlName="price">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Enter Description" formControlName="description">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+          <div *ngIf="alert" class="alert" role="alert">
+            <strong>Success!</strong> Book was added!
+            <button (click) = "closeAlert()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</section>

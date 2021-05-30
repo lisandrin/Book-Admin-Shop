@@ -1,0 +1,23 @@
+<app-list-header></app-list-header>
+
+<section class="products">
+    <div class="container">
+        <div class="products-items">
+            <div class="products-item" *ngFor = "let book of bookList">
+                <a> 
+                    <img src="{{book.image}}" alt="#bookimage">
+                    <span class="hover">
+                        <h5>About</h5>
+                    </span>
+                </a>
+                <div class="text">
+                    <span>{{book.author}}</span>
+                    <h5>{{book.title}}</h5>
+                    <p>{{book.price}}$</p>
+                </div>
+            </div> 
+        </div>
+    </div>
+</section>
+
+<app-list-footer></app-list-footer>

@@ -1,0 +1,143 @@
+{
+  "books": [
+    {
+      "id": "1781593275846",
+      "title": "Winter Darkest Tragedy",
+      "subtitle": "A Modern Introduction to Programming",
+      "image": "/assets/product-1-800x1104.jpg",
+      "author": "john strass",
+      "published": "2014-12-14T00:00:00.000Z",
+      "publisher": "No Starch Press",
+      "pages": 472,
+      "price": 38,
+      "description": "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.",
+      "website": "http://eloquentjavascript.net/"
+    },
+    {
+      "id": "2781449331818",
+      "title": "Symphony Of Trilogy",
+      "subtitle": "A JavaScript and jQuery Developer's Guide",
+      "image": "/assets/product-2.jpg",
+      "author": "Jessica Johnson",
+      "published": "2012-07-01T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 254,
+      "price": 22,
+      "description": "With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-date with the latest best practices, this book is for you.",
+      "website": "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"
+    },
+    {
+      "id": "3781449365035",
+      "title": "Jane doe",
+      "subtitle": "An In-Depth Guide for Programmers",
+      "image": "/assets/product-3-800x1105.jpg",
+      "author": "Axel Rauschmayer",
+      "published": "2014-02-01T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 460,
+      "price": 18,
+      "description": "Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position.",
+      "website": "http://speakingjs.com/"
+    },
+    {
+      "id": "4781491950296",
+      "title": "Fantasy Storytelling ",
+      "subtitle": "Robust Web Architecture with Node, HTML5, and Modern JS Libraries",
+      "author": "Eric Elliott",
+      "image": "/assets/product-8-800x1105.jpg",
+      "published": "2014-07-01T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 254,
+      "price": 67,
+      "description": "Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flexible and resilient code that's easier-yes, easier-to work with as your code base grows.",
+      "website": "http://chimera.labs.oreilly.com/books/1234000000262/index.html"
+    },
+    {
+      "id": "5781593277574",
+      "title": "Renaissance History",
+      "subtitle": "The Definitive Guide for JavaScript Developers",
+      "author": "James Hofman",
+      "image": "/assets/product-7-800x1105.jpg",
+      "published": "2016-09-03T00:00:00.000Z",
+      "publisher": "No Starch Press",
+      "pages": 352,
+      "price": 29,
+      "description": "ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that ECMAScript 6 brings to JavaScript.",
+      "website": "https://leanpub.com/understandinges6/read"
+    },
+    {
+      "id": "6781491904244",
+      "title": "Summertime Love Stories",
+      "subtitle": "ES6 & Beyond",
+      "image": "/assets/product-5-800x1105.jpg",
+      "author": "Kyle Simpson",
+      "published": "2015-12-27T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 278,
+      "price": 56,
+      "description": "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \"You Don’t Know JS\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the standard upon which JavaScript is built.",
+      "website": "https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond"
+    },
+    {
+      "id": "7781449325862",
+      "title": "Easy Fast Cooking",
+      "subtitle": "A Working Introduction",
+      "author": "Richard E. Silverman",
+      "image": "/assets/product-9-800x1105.jpg",
+      "published": "2013-08-02T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 234,
+      "price": 69,
+      "description": "This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git experience.",
+      "website": "http://chimera.labs.oreilly.com/books/1230000000561/index.html"
+    },
+    {
+      "id": "8781449337711",
+      "title": "Amster Hamster Trip",
+      "subtitle": "Harnessing the Power of the Web",
+      "author": "JAMES HOFFMAN",
+      "image": "/assets/product-4.jpg",
+      "published": "2014-04-07T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 538,
+      "price": 46,
+      "description": "Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft’s ASP.NET Web API framework. In the process, you’ll learn how design and implement a real-world Web API.",
+      "website": "http://chimera.labs.oreilly.com/books/1234000001708/index.html"
+    },
+    {
+      "id": "8781449337711",
+      "title": "Learn To Love Yourself",
+      "subtitle": "Harnessing the Power of the Web",
+      "author": "JESSICA JOHNSON",
+      "image": "/assets/product-6.jpg",
+      "published": "2014-04-07T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 538,
+      "price": 50,
+      "description": "Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft’s ASP.NET Web API framework. In the process, you’ll learn how design and implement a real-world Web API.",
+      "website": "http://chimera.labs.oreilly.com/books/1234000001708/index.html"
+    },
+    {
+      "id": "8781449337711",
+      "title": "Japan Travel Stories",
+      "subtitle": "Harnessing the Power of the Web",
+      "author": "John strass",
+      "image": "/assets/product-10-800x1105.jpg",
+      "published": "2014-04-07T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 538,
+      "price": 78,
+      "description": "Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft’s ASP.NET Web API framework. In the process, you’ll learn how design and implement a real-world Web API.",
+      "website": "http://chimera.labs.oreilly.com/books/1234000001708/index.html"
+    },
+    {
+      "title": "The Wanton Angel",
+      "author": "Edward Marston",
+      "pages": "369",
+      "image": "https://picture.graycity.net/img/edward-marston/the_wanton_angel.jpg",
+      "description": "Lies, Lechery and an anonymous AngelIn the tenth installment of this dramatic Elizabethan series, Westfield’s Men are flying high after a celebrated performance of The Insatiate Duke at the Queen’s Head. However, victory is bittersweet as the company is soon faced with dissolution and the loss of their theatre; were it not for one of the company’s rising stars.",
+      "price": "35",
+      "id": "L86TppV"
+    }
+  ]
+}

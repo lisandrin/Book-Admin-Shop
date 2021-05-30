@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500');
+
+
+.spin-earth-on-hover{
+    transition: ease 200s !important;
+    transform: rotate(-3600deg) !important;
+}
+
+.error__{
+    // background: url(http://salehriaz.com/404Page/img/bg_purple.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: left top;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    background-image: url(http://salehriaz.com/404Page/img/bg_purple.png) !important;
+
+    .central-body{
+        padding: 17% 5% 10% 5%;
+        text-align: center;
+
+        .image-404{
+            position: relative;
+            z-index: 100;
+            pointer-events: none;
+        }
+    }
+        
+    .objects {
+        
+        img{
+            z-index: 90;
+            pointer-events: none;
+        }
+
+        .object_rocket{
+            z-index: 95;
+            position: absolute;
+            transform: translateX(-50px);
+            top: 75%;
+            pointer-events: none;
+            animation: rocket-movement 200s linear infinite both running;
+        }
+        
+        .object_earth{
+            position: absolute;
+            top: 20%;
+            left: 15%;
+            z-index: 90;
+            animation: spin-earth 100s infinite linear both;
+        }
+
+        .object_moon{
+            position: absolute;
+            top: 12%;
+            left: 25%;
+        }
+
+        .box_astronaut{
+            z-index: 110 !important;
+            position: absolute;
+            top: 60%;
+            right: 20%;
+            will-change: transform;
+            animation: move-astronaut 50s infinite linear both alternate;
+
+            .object_astronaut{
+                animation: rotate-astronaut 200s infinite linear both alternate;
+            }
+        }
+    }
+
+    .stars{
+        background: url(http://salehriaz.com/404Page/img/overlay_stars.svg);
+        background-repeat: repeat;
+        background-size: contain;
+        background-position: left top;
+    }
+}
+
+.glowing_stars .star{
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fff;
+    width: 3px;
+    height: 3px;
+    opacity: 0.3;
+    will-change: opacity;
+}
+
+@keyframes rocket-movement { 
+    100% {
+        transform: translate(1200px,-600px);
+    } 
+};
+@keyframes spin-earth{ 
+    100% { 
+        -webkit-transform: rotate(-360deg); transform:rotate(-360deg); transition: transform 20s; 
+    } 
+};
+@keyframes move-astronaut{
+    100% { -webkit-transform: translate(-160px, -160px); transform:translate(-160px, -160px); }
+};
+@keyframes rotate-astronaut{
+    100% { -webkit-transform: rotate(-720deg); transform:rotate(-720deg); }
+};

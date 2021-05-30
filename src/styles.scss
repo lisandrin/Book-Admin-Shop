@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { padding: 0; margin: 0; font-family: 'Cormorant Garamond reg'; };
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('assets/fonts/Cormorantgaramondlight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Cormorant Garamond reg';
+    src: url('assets/fonts/Cormorantgaramond.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+// @font-face {
+//     font-family: 'Cormorant Garamond';
+//     src: local('Cormorant Garamond Light Italic'), local('CormorantGaramond-LightItalic'), url('Cormorantgaramondlightitalic.woff2') format('woff2'), url('Cormorantgaramondlightitalic.woff') format('woff'), url('Cormorantgaramondlightitalic.ttf') format('truetype');
+//     font-weight: 300;
+//     font-style: italic;
+// }
+.container{
+    width: 1350px;
+    margin: 0 auto;
+}
+.fa-hand-sparkles{
+    font-size: 3em;
+    color: #cfb72d;
+    margin-top: 0.5em;
+    transform: rotate(-40deg);
+    animation: shake 1.1s cubic-bezier(0.5, 0.82, 0.7, 1) infinite alternate-reverse;
+
+    @keyframes shake {
+        to{
+            transform: rotate(-10deg);
+        }    
+    }
+}

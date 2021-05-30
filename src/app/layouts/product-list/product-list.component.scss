@@ -1,0 +1,90 @@
+.products{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+.products-items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+
+    .products-item{
+        width: 100%;
+        display: inline-block;
+        height: auto;
+        text-align: left;
+
+        a{
+            width: 100%;
+            height: 200px;
+            transition: ease-out 0.5s;
+            z-index: 1;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+
+            img{
+                width: 100%
+            }
+            .hover{
+                background-color: #d14031;
+                z-index: 100;
+                width: 100%;
+                height: 354px;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                color: #fff;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                opacity: 0;
+
+                h5{
+                   margin-top: 10em;
+                   text-transform: uppercase;
+                   letter-spacing: 2px;
+                   font-size: 1.1em;
+                   font-family: serif;
+                   font-weight: 300;
+                }
+            }
+
+            &:hover>.hover{
+                opacity: 0.99;
+                transition: ease-in-out 0.4s;
+            }
+        }
+
+        .text{
+            width: 100%;
+            display: inline-block;
+            padding-top: 1em;
+
+            span{
+                letter-spacing: 2px;
+                color: #777;
+                margin-bottom: 0.5em;
+                text-transform: uppercase;
+                margin-bottom: 0.3em;
+            }
+
+            h5{
+                color: rgb(61, 61, 61);
+                font-size: 1.4em;
+                letter-spacing: 1px;
+                margin-top: 0.3em;
+                font-family: serif;
+                text-transform: capitalize;
+            }
+            p{
+                color: #211;
+                font-family: serif;
+                color: rgb(124, 124, 124);
+                font-size: 1.2em;
+            }
+        }
+    }
+}

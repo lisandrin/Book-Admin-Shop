@@ -1,0 +1,98 @@
+.main-list-footer{
+    width: 100%;
+    display: flex;
+    height: auto;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    background-color: #292829;
+
+    .main-footer-items{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 25px;
+        margin-top: 2em;
+        padding-bottom: 1em;
+
+        .footer-item{
+            width: 100%;
+            display: inline-block;
+            color: #BDBEBD;
+            text-align: left;
+
+            h3{
+                padding-bottom: 0.5em;
+                font-size: 2em;
+                font-family: 'Cormorant Garamond reg',serif;
+            }
+            
+            p{
+                line-height: 2em;
+                font-size: 1.2em;
+                font-family: 'Cormorant Garamond reg',serif;
+            }
+
+            .link-list{
+                width: 100%;
+                display: inline-block;
+                text-align: left;
+
+                li{
+                    width: 100%;
+                    list-style: none;
+                    margin-top: 0.8em;
+
+                    a{
+                        text-decoration: none;
+                        font-family: 'Cormorant Garamond reg';
+                        font-size: 1.5em;
+                        color: #BDBEBD;
+                    }
+                }
+            }
+            
+            .item-icon__list{
+                width: 100%;
+                display: flex;
+                margin-block-start: 0em;
+                margin-block-end: 0em;
+
+                li{
+                    list-style: none;
+                    margin-top: 0.5em;
+
+                    a{
+                        margin-left: 20px;
+
+                        i{
+                            color: #BDBEBD;
+                            font-size: 1.35em;
+                        }
+
+                        &:hover>i{
+                            color: #c24e00;
+                        }
+                    }
+                }
+            }
+
+            .input-area{
+                padding-top: 1em;
+                input{
+                    width: 80%;
+                    margin-top: 1em;
+                    padding: 1em;
+                    border: 1px solid #BDBEBD;
+                    background-color: transparent;
+                    outline: none;
+                    
+                    &:placeholder-shown{
+                        color: #BDBEBD;
+                        font-family: serif;
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+}
